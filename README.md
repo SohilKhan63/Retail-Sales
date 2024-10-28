@@ -1,5 +1,6 @@
 # Retail-Sales
 -- CREATE TABLE
+```
 DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales
 	(
@@ -15,7 +16,7 @@ CREATE TABLE retail_sales
 	cogs	FLOAT,
 	total_sale FLOAT
 	);
-
+ 
 -- Q.1 Write a SQL query to retrieve all columns for sales made on '2022-11-05
 	SELECT * FROM retail_sales
 	WHERE sale_date = '2022-11-05';
@@ -109,3 +110,4 @@ CREATE TABLE retail_sales
 	FROM Hourly_table
 	GROUP BY Time_table
 	ORDER BY total_orders DESC;
+```
